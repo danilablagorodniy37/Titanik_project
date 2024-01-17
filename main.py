@@ -8,7 +8,7 @@ test = pd.read_csv("csv/test.csv")
 gender = pd.read_csv("csv/gender_submission.csv")
 
 train_shape = train.shape
-isAnal = train.isnull().sum()
+train_isnull_check = train.isnull().sum()
 
 import numpy as np
 train.head()
